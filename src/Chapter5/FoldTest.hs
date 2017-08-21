@@ -16,4 +16,4 @@ last' :: [a] -> a
 last' = foldl1 (\_ x -> x)
 
 and' :: [Bool] -> Bool
-and' xs = foldr (&&) True xs
+and' = foldr (&&) True
